@@ -1,0 +1,201 @@
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+body {
+    margin: 0;
+}
+.main-nav {
+    padding-left: 15%;
+    display: flex;
+    background: rgb(245, 245, 245);
+    color: white;
+    height: 4em;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+
+}
+.main-nav>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 4;
+    align-items: center;
+}
+.main-nav>ul>li{
+    margin: 0;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.main-nav>ul>li:hover{
+    background-color:rgba(255, 0, 0, 0.438)
+}
+
+
+
+
+
+.about-nav {
+    padding-left: 15%;
+    display: flex;
+    background: rgb(245, 245, 245);
+    color: white;
+    height: 4em;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+
+}
+.about-nav>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 4;
+    align-items: center;
+}
+.about-nav>ul>li{
+    margin: 0;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.about-nav>ul>li:hover{
+    background-color:rgba(255, 0, 0, 0.438)
+}
+
+
+.gallery-nav {
+    padding-left: 15%;
+    display: flex;
+    background: rgb(245, 245, 245);
+    color: white;
+    height: 4em;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+
+}
+.gallery-nav>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 4;
+    align-items: center;
+}
+.gallery-nav>ul>li{
+    margin: 0;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.gallery-nav>ul>li:hover{
+    background-color:rgba(255, 0, 0, 0.438)
+}
+
+.contact-nav {
+    padding-left: 15%;
+    display: flex;
+    background: rgb(245, 245, 245);
+    color: white;
+    height: 4em;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+
+}
+.contact-nav>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 4;
+    align-items: center;
+}
+.contact-nav>ul>li{
+    margin: 0;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.contact-nav>ul>li:hover{
+    background-color:rgba(255, 0, 0, 0.438)
+}
+
+
+
+
+
+
+   
+
+header {
+    background: #1B222A url(https://www.readersdigest.ca/wp-content/uploads/2016/05/what-different-flowers-mean-scaled.jpg) no-repeat top center;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 3em;  
+}
+header .app-btn {
+    width: 15%;
+    margin-right: 30px;
+}
+
+header #head-desno .showcase-img {
+    width: 70%;
+    padding: 0;
+    margin-bottom: -.25em;
+}
+#head-desno{
+    align-self: flex-end;
+    padding: 0;
+}
+#middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5% 12%;
+}
+
+#middle .deca {
+    width: 25%;
+    padding: 0 2em;
+}
+
+.demo {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+.btn{
+    line-height: 2em;
+    padding: .5em;
+    border: 1px solid grey;
+    border-radius: .5em;
+    color: black;
+}
+.btn:hover{
+    background-color: gainsboro;
+}
+@media (max-width: 768px) {
+    #middle{
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 80%;
+        grid-row-gap: 10px;
+    }    
+  }
